@@ -16,5 +16,7 @@ public class ContaTerminall {
 
         System.out.println("Olá, " + nomeCliente + "! Sua conta de número " + numeroConta + " na agência " +numeroAgencia + " foi criada com sucesso!");
         System.out.println("Seu saldo é: R$ " + saldo);
+
+        scanner.close();
     }
 }
